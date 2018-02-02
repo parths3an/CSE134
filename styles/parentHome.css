@@ -1,0 +1,16 @@
+/*
+This file will contain the css files
+*/
+*
+{
+margin: 0px;
+padding: 0px;
+}
+
+header
+{
+    background-image: url("../images/exampleBaby.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
