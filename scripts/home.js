@@ -1,1 +1,0 @@
-//This folder will contain all the JavaScripts that we wiil be using.
