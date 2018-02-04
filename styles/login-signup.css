@@ -12,12 +12,13 @@
 
 body {
 
-  background:url(../Baby-Sweet-Indian-Baby-Lovely-Wallpaper-2560x1440.jpg);
+  background:url(../images/exampleBaby.jpg);
 
   font-family: 'Titillium Web', sans-serif;
-
-  background-size:cover;
-
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
 }
 
 
@@ -34,7 +35,7 @@ a {
 
 a:hover {
 
-  color: #0074D9;
+  color: rgba(91, 9, 99, 0.945);
 
 }
 
@@ -96,8 +97,14 @@ a:hover {
 
   padding: 15px;
 
-  background: #000;
-
+  background:rgb(128, 13, 194);
+ 
+  border-left: rgb(87, 86, 86);
+  border-right-color: rgb(87, 86, 86);
+  border-top-color: rgb(87, 86, 86);
+  border-bottom-color: rgb(87, 86, 86);
+  
+  border-style: solid;
   color: #fff;
 
   font-size: 20px;
@@ -116,7 +123,7 @@ a:hover {
 
 .tab-group li a:hover {
 
-  background: #0074D9;
+  background: rgba(91, 9, 99, 0.945);;
 
   color: #ffffff;
 
@@ -124,7 +131,7 @@ a:hover {
 
 .tab-group .active a {
 
-  background: 	#00BFFF;
+  background: 	rgb(128, 13, 194);
 
   color: #fff;
 
@@ -302,7 +309,7 @@ input:focus{
 
   letter-spacing: .1em;
 
-  background: 	#00BFFF;
+  background: 	rgb(128, 13, 194);
 
   color: #ffffff;
 
@@ -312,7 +319,7 @@ input:focus{
 
 .button:hover, .button:focus {
 
-  background: #0074D9;
+  background:rgba(91, 9, 99, 0.945);
 
 }
 
