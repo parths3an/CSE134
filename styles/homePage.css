@@ -92,7 +92,7 @@ p {
     color: #fff;
     text-align: center;
 }
-
+/*
 #showcase .bg-image {
     background: url("../images/main-showcase.jpeg");
     background-position: center;
@@ -102,6 +102,8 @@ p {
     height: 600px;
     z-index: -1;
     opacity: 0.95;
+    margin: auto;
+    max-width: 1000px;
 
 }
 
@@ -118,6 +120,43 @@ p {
     padding-left: 20px;
     padding-right: 20px
 }
+*/
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .dot {
+    cursor:pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
 
 
 /* Add a card effect for articles */
