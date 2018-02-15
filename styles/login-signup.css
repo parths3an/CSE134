@@ -12,7 +12,7 @@
 
 body {
 
-  background:url(../images/exampleBaby.jpg);
+  background:url("../images/exampleBaby.jpg");
 
   font-family: 'Titillium Web', sans-serif;
   background-repeat: no-repeat;
@@ -40,6 +40,13 @@ a:hover {
 }
 
 
+.popup{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+
+}
+
 
 .form {
 
@@ -47,9 +54,14 @@ a:hover {
 
   padding: 40px;
 
+
+  width: 100%;
   max-width: 600px;
 
-  margin-top: 100px; 
+  height: auto;
+
+
+  margin: 100px auto 0 auto;
 
   border-radius: 4px;
 
@@ -59,7 +71,7 @@ a:hover {
 
   position: fixed center;
 
-  align-self: center; 
+  align-self: center;
 
 }
 
@@ -74,28 +86,32 @@ a:hover {
 
 
 .tab-group {
+  width: 100%;
+  height: auto;
 
   list-style: none;
 
   padding: 0;
 
-  margin: 0 0 40px 0;
+  margin: auto;
 
 }
 
+.tab-group ul{
+  list-style: none;
+}
+
+
 .tab-group:after {
-
-  content: "";
-
-  display: table;
-
   clear: both;
 
 }
 
-.tab-group li a {
+.tab-group ul li a {
 
-  display: block;
+  display: flex;
+  width: 50%;
+  height: 10%;
 
   text-decoration: none;
 
@@ -139,6 +155,17 @@ a:hover {
 
   color: #fff;
 
+}
+
+.popup-button{
+  width: 100%;
+  height: 20%;
+}
+
+
+.tab-content{
+  width: 100%;
+  height: 70%;
 }
 
 
@@ -347,22 +374,6 @@ input:focus{
 
   margin-bottom:10px;
 
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media (max-width: 800px) {
-  .form{
-      width: 100%;
-      padding: 0;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media (max-width: 400px) {
-  .form{
-      padding: 0;
-      width:100%;
-  }
 }
 
 
