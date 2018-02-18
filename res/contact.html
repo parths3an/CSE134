@@ -15,7 +15,7 @@
         <header>
                 <div class="row">
                     <div class="logo">
-                        <img src="../images/logo.png" alt="../images/logo.png">
+                       <a href="./parentHome.html"> <img src="../images/logo.png" alt="../images/logo.png"></a>
                     </div>
                     <ul class="main-nav">
                         <li class="active">
@@ -34,7 +34,7 @@
                     <div class="userName">
                         Welcome, John!
                         <div class="btn">
-                            <button class="signOutBtn"> Sign Out </button>
+                            <a href="./homePage.html"><button class="signOutBtn"> Sign Out </button></a>
                         </div>
                     </div>
                 </div>
@@ -43,7 +43,7 @@
             </header>
 
             <div class="container">
-                <form action="action_page.php">
+                <form action="">
               
                   <label for="fname">First Name</label>
                   <input type="text" id="fname" name="firstname" placeholder="Your name..">
@@ -61,10 +61,12 @@
                   <label for="subject">Subject</label>
                   <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
               
-                  <input type="submit" value="Submit">
+                  <input type="submit" value="Submit" onclick="return alertMessage()">
               
                 </form>
               </div>
+
+              <script src="../scripts/contact.js"></script>
 </body>
 
 </html>

@@ -33,7 +33,7 @@
                     <div class="userName">
                         Welcome, John!
                         <div class="btn">
-                            <button class="signOutBtn"><a href="./homePage.html"> Sign Out </button>
+                            <a href="./homePage.html"> <button class="signOutBtn">Sign Out</button></a>
                         </div>
                     </div>
                 </div>
@@ -49,44 +49,45 @@
             <div class="calendarImage">
                 <img src="../images/calendar.png" alt="../images/calendar.png">
             </div>
-            <div class="jobStatusBord">
-                <div class="s1">
-                    <p>
-                        <br> Date: 01/27/18
+            
+                    <p class="s1" onclick="return confirmPopUp()">
+                        Date: 01/27/18
                         <br> Day: Satuday
                         <br> From: 5:00pm
                         <br> To: 7:00pm
                         <br> Status: Confirmed
                     </p>
-                </div>
-                <div class="s2">
-                    <p>
-                        <br> Date: 01/28/18
+            
+          
+                    <p  class="s2">
+                        Date: 01/28/18
                         <br> Day: Sunday
                         <br> From: 7:00pm
                         <br> To: 9:00pm
                         <br> Status: Pending
                     </p>
-                </div>
-            </div>
+               
+    
         </div>
         <div class="requestBox">
             <div class="rBox">
-                <button class="rBox">
+                <a href="./parent-BabySitterView.html"><button class="rBox">
                     <span class="reqBtn"> Request A Baby Sitter
                     </span>
-                </button>
+                </button></a>
             </div>
             <div class="editReqBox">
-                <button class="editReqBtn">
+               <a href="./parent-messageView.html"> <button class="editReqBtn">
                     <span class="editBtn">Edit Request</span>
-                </button>
+                </button></a>
             </div>
 
         </div>
 
     </div>
     <script src="../scripts/parentHome.js"></script>
+    <script src="../scripts/confirmWindow.js"></script>
+    
 </body>
 
 </html>

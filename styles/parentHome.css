@@ -101,7 +101,7 @@ body
     border-style: solid;
     padding-top: 15px;
     padding-left: 15px;
-    color: aliceblue;
+    color: rgb(10, 10, 10);
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -114,7 +114,7 @@ body
     border-width: 3px;
     width: 210px;
     text-decoration-color: aliceblue;
-    height: 485px;
+    height: 520px;
     width: 200px;
     position: absolute;
     top: 200px;
@@ -124,13 +124,15 @@ body
     padding-top: 35px; 
     margin-left: 20px;
     margin-right: 0px;  
+    background:rgba(255,255,255,0.722);
 }
 
 .calendarImage
 {
- width: 250px;
  position: absolute;
- padding-top: 25px;
+ margin-top: 25px; 
+ padding: 0px;
+ border: solid black;
 }
 
 .requestBox
@@ -148,18 +150,28 @@ body
     display: inline-block;  
     margin-right: 50px;  
     float: right;
+    background:rgba(255, 255, 255, 0.722);
+
 }
 
 .s1
 {
     position: absolute;
-    padding-top: 190px;
+    margin-top: 210px;  
+    border: solid black;
+    padding: 5px 5px;
+    
+
 }
 
 .s2
 {
     position: absolute;
-    padding-top: 300px;
+    border-style: solid purple;
+    margin-top: 330px;  
+    border: solid black;
+    padding: 5px 15px;
+    
     
 }
 
